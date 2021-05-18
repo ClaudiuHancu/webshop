@@ -1,6 +1,6 @@
 import React from "react";
 import StripeCheckout from "react-stripe-checkout";
-import { clearItemFromCart } from "../../redux/cart/cart.actions";
+// import { clearItemFromCart } from "../../redux/cart/cart.actions";
 
 const StripeCheckoutButton = ({ price }) => {
   const priceForStripe = price * 100;
